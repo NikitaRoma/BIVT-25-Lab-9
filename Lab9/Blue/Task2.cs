@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
 namespace Lab9.Blue
 {
     public class Task2 : Blue
     {
         private string _ord;
-        private string _output;
+        private string _output = "";
         public string Output => _output;
 
         public Task2(string input, string ord) : base(input)
